@@ -1,0 +1,148 @@
+
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #00172d;
+  background-color: hsl(0, 0%, 97%);
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1::first-letter {
+  text-transform:capitalize;
+}
+
+h3 {
+  margin-left: 0.5rem;
+}
+
+.country-info {
+  margin-left: 0.5rem;
+}
+
+span {
+  font-weight: 600;
+}
+
+.header {
+  background-color: white;
+  margin-bottom: 1rem;
+  border-bottom: grey 1px solid;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.country-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-selector {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+.countries-container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: hsl(0, 0%, 97%);
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.country-container {
+  background-color: white;
+  padding: 0.5rem;
+  margin: 2.5rem;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.flag {
+  width: 200px;
+  height: 100px;
+}
+
+
+.country-container-details {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.country-flag {
+  border-radius: 10px;
+  width: 450px;
+  height: 300px;
+}
+
+.country-details {
+  margin-left: 2rem;
+}
+
+.search-container {
+  margin: 1rem 15rem;
+  display: flex;
+}
+
+.search-icon {
+  height: 50px;
+}
+
+.search-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+select{
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.back-btn {
+  border-radius: 10px;
+  padding: 0.7rem;
+  margin: 1rem;
+  background-color: white;
+  border: solid 1px black;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.back-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.border-btn {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  cursor: pointer;
+}
